@@ -35,6 +35,11 @@ Final Deploy URL:
 
 https://white-meadow-0006bf903.azurestaticapps.net/
 
+# Visio Code - Parameter Bar
+
+- Use Ctrl + Shift + P to open up the command bar
+- You can then type in ```git: commit``` or ```git: push``` to interact with github
+
 # References
 
 [What is Azure Static Web Apps?](https://docs.microsoft.com/en-us/azure/static-web-apps/overview)
