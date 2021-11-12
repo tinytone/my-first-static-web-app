@@ -7,7 +7,7 @@ This repo is used as a starter for a _very basic_ HTML web application using no 
 
 # Steps
 
-This repo was created from the instructions on this website
+This repo was created from the instructions on this website:
 
 https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript
 
@@ -19,3 +19,22 @@ https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vani
 - Azure Static Web Apps extension for Visual Studio Code  (I had to install this in VS Code)
 - Install Git
 
+# Setting up a Static Web App
+
+- Use the VS Code Extension -> Click the Azure Icon in the Activity Bar 
+- click the + icon
+- Enter a name for the app e.g. my-first-static-web-app
+- Select the Region (Europe)
+- enter ```/src``` as the directory containing the source code
+- clear out ```build```
+- deploy
+
+This will connect to github and create a github actions workflow for you that will automatically build and deploy to the Azure Static Web App!
+
+Final Deploy URL:
+
+https://white-meadow-0006bf903.azurestaticapps.net/
+
+# References
+
+[What is Azure Static Web Apps?](https://docs.microsoft.com/en-us/azure/static-web-apps/overview)
